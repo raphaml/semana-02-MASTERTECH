@@ -1,0 +1,17 @@
+div{
+	width: 200px;
+	height: 150px;
+	border-radius: 10px;
+	border: 1px solid #aaa;
+	margin: 0 10px;
+	font-size: 80px;
+	text-align: center;
+	padding-top: 50px;
+	color: #aaa;
+	background-color: #aaa;
+}
+section{
+	display: flex;
+	/*justify-content: center; É USADO PARA CENTRALIZAR OS ITENS DA MINHA SECTION	*/
+	justify-content: center;
+}

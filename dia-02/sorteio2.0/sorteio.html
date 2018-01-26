@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sorteio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<section>
+		<div id="div1" onmouseover="passarMouse('#div1')"></div>
+		<div id="div2" onmouseover="passarMouse('#div2')"></div>
+		<div id="div3" onmouseover="passarMouse('#div3')"></div>
+		<div id="div4" onmouseover="passarMouse('#div4')"></div>
+		<div id="div5" onmouseover="passarMouse('#div5')"></div>
+	</section>
+
+	<script type="text/javascript">
+		
+		let div1 = document.querySelector('#div1');
+		let div2 = document.querySelector('#div2');
+		let div3 = document.querySelector('#div3');
+		let div4 = document.querySelector('#div4');
+		let div5 = document.querySelector('#div5');
+
+		div1.innerHTML = Math.ceil(Math.random() * 60);
+		div2.innerHTML = Math.ceil(Math.random() * 60);
+		div3.innerHTML = Math.ceil(Math.random() * 60);
+		div4.innerHTML = Math.ceil(Math.random() * 60);
+		div5.innerHTML = Math.ceil(Math.random() * 60);
+
+		function passarMouse (seletor){
+			let div= document.querySelector(seletor);
+			div.style.backgroundColor = 'rgba(0,0,0,0.0)';
+		}
+
+	</script>
+
+</body>
+</html>

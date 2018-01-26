@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- META PARA O NAVEGADOR SABER OS CARACTERES ESPECIAIS -->
+	<meta charset="utf-8">
+	<!-- META PARA PODER TRABALHAR COM TELAS RESPONSIVAS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Acessibilidade</title>
+	<!-- CSS DO BOOTSTRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<!-- O MEU CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<!-- COMEÇO DA NAV -->
+	<nav>
+		<a href="index.html">
+  			<p id="style-p-nav">acessibilidade</p>
+  		</a>
+  			<ul>
+				<li><a href="#section1">Quem Somos</a></li>
+				<li>|</li>
+				<li><a href="#section2">Baixar</a></li>
+				<li>|</li>
+				<li><a href="#section3">Contato</a></li>
+			</ul>
+	</nav>
+	<!-- FIM DA NAV -->
+
+	<!-- COMEÇO DO HEADER -->
+	<header>
+		<h1 id='styleh1-ace'>Acessibilidade</h1>
+			<br><br><br><br><br><br>
+			<div class="row styleheader container-fluid">
+				<div class="col-sm-3 offset-sm-3">
+					<button type="button" class="btn btn-outline-primary btn-lg btn-block">Cadastre-se</button>
+				</div>
+
+				<div class="col-sm-3 offset-sm-">
+					<button type="button" class="btn btn-outline-success btn-lg btn-block">Entrar</button>
+				</div>
+			</div>
+
+	</header>
+	<!-- FIM DO HEADER -->
+
+	<!-- COMEÇO DAS SECTIONS -->
+
+	<!-- SECTION QUEM-SOMOS -->
+	<section id="section1">
+		<h1>Quem Somos</h1>
+		
+	<div class = "top-quem-somos container-fluid">
+		<div class='div-quem-somos'>
+			<p id='p-com-movimento'></p>
+		</div>
+		<div class='div-quem-somos'>
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH5o2jeKdCk1r8Ho1OcTUwVx-0G4egeQP40c3IbEe1h6ulCNHr " class="naoativa" height="300px">
+			<img src="http://f.i.uol.com.br/fotografia/2012/05/25/151656-970x600-1.jpeg" class="naoativa" height="300px">
+			<img src="http://www.solucoesindustriais.com.br/images/produtos/imagens_10092/p_elevador-plataforma-para-cadeirantes-31.jpg" class="naoativa" height="300px">
+			<img src="http://www.oradarsindical.com.br/oradarsindical/blogdoneto/wp-content/uploads/2013/05/Cadeirante-Deficiente-Fisico-Arquivo-DL.jpg" class="naoativa" height="300px">
+
+		</div>
+	</div>
+	</section>
+	<!-- FIM DA SECTION QUEM SOMOS -->
+
+	<!-- SECTION BAIXE APP -->
+	<section id="section2">
+		<h1>Baixe o App</h1>
+
+		<div id=baixe-app>
+			<a href="https://play.google.com/store?utm_source=latam_Med&utm_medium=hasem&utm_content=Feb0217&utm_campaign=Evergreen&pcampaignid=MKT-DR-latam-br-1002290-Med-hasem-py-Evergreen-Feb0217-Text-Institucional&gclid=Cj0KCQiA-ebSBRC8ARIsAGuxJIpeyxiwbtAn5MSBpPlI0u9nNB_aLehWC6ArFKfMXKGqCW6G8KPu3ZoaAqTUEALw_wcB&gclsrc=aw.ds&dclid=COChkP7b1dgCFQ8rhwodwr4BgQ">
+				<img  src="img/android.png">
+			</a>
+			<a href="https://itunes.apple.com/br/app/apple-store/id375380948?mt=8">
+				<img src="img/ios.png">
+			</a>
+		</div>
+	
+	</section >
+	<!-- FIM DA SECTION BAIXE APP -->
+
+	<!-- SECTION CONTATO -->
+	<section id="section3">
+		<h1>Contato</h1>
+		<form>
+    		<legend>Formulário para contato:</legend>
+    			<input id="input1" type="text" name="nome" value="Nome" class="style-input" onclick="apagarInput('#input1')"> 
+    			<input id="input2" type="email" name="email" value="Email" class="style-input" onclick="apagarInput('#input2')"><br><br>
+    			<input id="input3" type="text" name="numero-de-celular" value="Celular" class="style-input"  onclick="apagarInput('#input3')">
+    			<input id="input4" name="empresa" value="Empresa" class="style-input" onclick="apagarInput('#input4')"><br><br>
+    				<p class="container-fluid">Assunto:</p>
+    					<select class="container-fluid letra-cinza">
+    						<option value="Cadastro-emp">Cadastro de empresas</option>
+  							<option value="Sugest">Sugestões</option>
+    					</select><br><br>	
+    			<textarea id="textarea" name="message" rows="3" cols="3" class="container-fluid letra-cinza" onclick="apagarInput('#textarea')">Deixe sua mensagem para nós</textarea><br><br>
+   	 			<button type="submit" name="Enviar" id="btn">Enviar</button>
+   	 			<button type="reset" name="Apagar" id="btn2">Limpar</button>
+		</form>
+	</section>
+	<!-- FIM DA SECTION CONTATO -->
+	<!-- FIM DAS SECTIONS-->
+
+	<!-- FOOTER -->
+	<footer>
+		
+	</footer>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

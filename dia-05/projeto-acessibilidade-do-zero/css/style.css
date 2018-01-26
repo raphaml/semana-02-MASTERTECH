@@ -1,0 +1,165 @@
+/*TAGS NATIVAS DO HTML*/
+*{
+	margin: 0;
+}
+header{
+	background-color: #aed6f1;
+	height: 784px;
+}
+section{
+	height: 650px;
+	padding-top: 5%;
+}
+section h1{
+	text-align: center;
+	color: #0084ff;
+	font-size: 40px;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 1%;
+
+}
+footer{
+	background-color: #252829;
+	width: 100%;
+	height: 350px;
+}
+nav{
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	height: 64px;
+	border-bottom: 2px solid #8fbdb9;
+	z-index: 1;
+}
+nav ul{
+	float: right;
+	margin-right: 5%;
+}
+nav ul li{
+	float: left;
+	list-style-type: none;
+	margin-left: 19px;
+	margin-right:10px;
+	font-size: 15px;
+	color: #007bff;
+}
+a{
+	color: #aed6f1;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #0056b3;
+}
+form{
+	padding-left: 90px;
+}
+form p{
+	text-align: center;
+	font-size: 35px;
+	padding-right: 90px;
+	color: #aed6f1;
+}
+form legend{
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 5%;
+	color: #aed6f1;
+	justify-content: center;
+}
+/*FIM DAS TAGS NATIVAS*/
+
+#section1{
+	background-color: #fff;
+}
+#section2{
+	background-color: #f8f9f9;
+}
+#section3{
+	background-color: #F0F8FF;
+}
+
+/*CLASSES DO FORM*/
+
+.style-form{
+	margin-top: 1%;
+	margin-left: 1%;
+	text-align: center;
+}
+
+.style-input{
+	width: 45%;
+	text-align: center;
+	/*border-radius: 10px;*/
+	color: #A9A9A9;
+/*	box-shadow:1px 1px 3px black;*/
+	height: 30px;
+}
+
+.letra-cinza{
+	color: #A9A9A9;
+	/*border-radius: 10px;*/
+}
+.container-fluid {
+    width: 91%;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*FIM DAS CLASSES DO FORM*/
+
+/*ID DO FORM*/
+
+#btn{
+	width: 100px;
+    height: 35px;
+    margin-left: 90px;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    color: black;
+}
+#btn2{
+	width: 100px;
+    height: 35px;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    color: black;
+	margin-left: 60%;
+}
+
+
+/*FIM DOS ID DO FORM*/
+
+
+#styleh1-ace{
+	color: #fff;
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+#baixe-app{
+    margin-left: 33%;
+    margin-top: 10%;
+ }
+ #p-com-movimento{
+ 	font-size: 25px;
+ }
+ .div-quem-somos{
+ 	width: 50%;
+ 	float: left;
+ }
+.naoativa{
+	display: none;
+	width: 100%;
+}
+.ativa{
+	display: block;
+	width: 100%;
+	height: 50%;
+}
+.top-quem-somos{
+	margin-top: 5%;
+
+}

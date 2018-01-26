@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+}
+
+section	{
+	display: flex;
+	/*USA-SE ESSE flex-wrap: wrap; PARA QUE ASSIM QUE MEUS ITENS ALCANCEM 100% DA TELA
+	TODOS OS OUTROS ITENS IRAO PARA A LINHA DE BAIXO, ENQUANTO O display: flex; OBRIGA TODOS A FICAREM NA MESMA LINHA
+	O flex-wrap: wrap; OBRIGA QUE O RESTO DESÇA ASSIM QUE ALCANÇAR 100% DA TELA*/
+	flex-wrap: wrap;
+}
+section.btn{
+	justify-content: space-around;
+}
+
+img{
+	max-width: 19%;
+	margin: 0.5%;
+	border-radius: 20px;
+	/*DA UMA SOMBRA AO ELEMENTO*/
+	box-shadow: 1px 1px 10px black;
+	/*ESSE transition SERVE PARA QUE TODA ALTERAÇÃO NO CSS TENHA UM COOLDONW
+	NESSE CASO É DE 1SEGUNDO*/
+	transition: linear 2s
+}
+button{
+	margin: 10px 10px;
+	border: 0;
+	padding: 10px;
+	width: 20%;
+	background-color: #666;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+}
